@@ -1,0 +1,38 @@
+.container{
+  height:100vh;
+  width:100vw;
+  background : linear-gradient(darkblue ,cyan , darkblue  , blue);
+  color:white;
+  font-weight:bolder;
+  font-size:2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction : column;
+}
+
+
+.app{
+  height:50vh;
+  width:50vw;
+  background-color:rgb(57, 58, 59);
+  border-radius:30px;
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.copy{
+  border:none;
+  background:darkblue;
+  padding:5px;
+  border-radius:15px;
+  margin:10px;
+}
+
+.box{
+  height:20px;
+  width:20px;
+  margin:10px;
+}
